@@ -1,0 +1,171 @@
+[log] [repro] START label=newest compiler=dart2wasm
+[log] [repro] INIT true
+[log] [repro] LOAD rewards.riv bytes=221069
+[log] [repro] LOADED rewards.riv viewModels=6
+[log] [repro] MODEL Rewards
+[log] [repro] PASS before number(Coin/Item_Value): 1300.0
+[log] [repro] PASS before enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)
+[log] [repro] STACK before file.enums
+    at M._throwErrorWithoutDetails (http://127.0.0.1:8223/main.dart.wasm:wasm-function[840]:0xc06b4)
+    at M._CastListBase.[] (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1350]:0xd2165)
+    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1356]:0xd2234)
+    at M.ListIterator.moveNext (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1144]:0xc8ca1)
+    at M.new GrowableList.of (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1123]:0xc85dd)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9250]:0x199ef3)
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 1 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 1 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 2 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 2 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 3 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 3 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 4 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 4 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 5 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 5 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 6 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 6 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 7 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 7 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 8 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 8 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 9 number(Coin/Item_Value): 1300.0
+[log] [repro] PASS after large 9 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [memory.grow] {"before":67108864,"after":80543744,"delta":205,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"}
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 10 number(Coin/Item_Value)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] FAIL after large 10 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 10 enumerator(Item_Selection/Item_Selection)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] FAIL after large 11 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 11 number(Coin/Item_Value)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] FAIL after large 11 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 11 enumerator(Item_Selection/Item_Selection)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] FAIL after large 12 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 12 number(Coin/Item_Value)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] FAIL after large 12 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK after large 12 enumerator(Item_Selection/Item_Selection)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)
+[log] [repro] STACK after file.enums
+    at M._throwErrorWithoutDetails (http://127.0.0.1:8223/main.dart.wasm:wasm-function[840]:0xc06b4)
+    at M._CastListBase.[] (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1350]:0xd2165)
+    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1356]:0xd2234)
+    at M.ListIterator.moveNext (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1144]:0xc8ca1)
+    at M.new GrowableList.of (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1123]:0xc85dd)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9250]:0x199ef3)
+[log] [repro] FAIL retry number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK retry number(Coin/Item_Value)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199356)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] FAIL retry enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] STACK retry enumerator(Item_Selection/Item_Selection)
+TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+    at DataView.prototype.setUint8 (<anonymous>)
+    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)
+    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)
+    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)
+    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)
+    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)
+    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199356)
+    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)
+[log] [repro] DONE

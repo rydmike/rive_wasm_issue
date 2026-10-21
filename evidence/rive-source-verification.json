@@ -1,0 +1,18 @@
+[
+  {
+    "version": "0.15.0-dev.3",
+    "archive_url": "https://pub.dev/api/archives/rive-0.15.0-dev.3.tar.gz",
+    "archive_sha256": "cf7582329cb5781ac9541a15fd6017d383e695e63c731816f39514427e771e5a",
+    "matches_pub_dev": true,
+    "cached_library_file_count": 14,
+    "cached_libraries_match_archive": true
+  },
+  {
+    "version": "0.14.11",
+    "archive_url": "https://pub.dev/api/archives/rive-0.14.11.tar.gz",
+    "archive_sha256": "0319f216b753f5d8f3f624413cd5b5a18f6ed8f0a677f80d97b53ecd3d2080c3",
+    "matches_pub_dev": true,
+    "cached_library_file_count": 13,
+    "cached_libraries_match_archive": true
+  }
+]

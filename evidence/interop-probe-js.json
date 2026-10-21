@@ -1,0 +1,79 @@
+{
+  "capturedAt": "2026-10-21T07:43:07.761Z",
+  "url": "http://127.0.0.1:8240/?js",
+  "browser": "Chrome/155.0.8059.85",
+  "console": [
+    {
+      "type": "log",
+      "text": "[repro] old enum cast: Coin"
+    },
+    {
+      "type": "log",
+      "text": "[repro] converted enum: [Coin, Gem]"
+    },
+    {
+      "type": "log",
+      "text": "[repro] before grow Dart length=1024 isEmpty=false bufferBytes=65536"
+    },
+    {
+      "type": "log",
+      "text": "[memory.grow] {\"before\":65536,\"after\":131072,\"delta\":1,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at Object.JSObjectUnsafeUtilExtension__callMethod (http://127.0.0.1:8240/probe.js:2941:29)\\n    at main (http://127.0.0.1:8240/probe.js:2906:21)\\n    at http://127.0.0.1:8240/probe.js:4024:7\\n    at http://127.0.0.1:8240/probe.js:4005:7\\n    at dartProgram (http://127.0.0.1:8240/probe.js:4018:5)\\n    at http://127.0.0.1:8240/probe.js:4027:3\"}"
+    },
+    {
+      "type": "log",
+      "text": "[repro] after grow JS length=0 Dart length=0 isEmpty=true bufferBytes=0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] stale write error: RangeError (index): Index out of range: no indices are valid: 0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] DONE"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    "http://127.0.0.1:8240/?js",
+    "http://127.0.0.1:8240/probe.js",
+    "http://127.0.0.1:8240/favicon.ico"
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8240/?js",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "591",
+        "content-type": "text/html",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:43:07 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:40:47 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    }
+  ],
+  "environment": {
+    "crossOriginIsolated": true,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "memoryGrowth": [
+      {
+        "before": 65536,
+        "after": 131072,
+        "delta": 1,
+        "detached": true,
+        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at Object.JSObjectUnsafeUtilExtension__callMethod (http://127.0.0.1:8240/probe.js:2941:29)\n    at main (http://127.0.0.1:8240/probe.js:2906:21)\n    at http://127.0.0.1:8240/probe.js:4024:7\n    at http://127.0.0.1:8240/probe.js:4005:7\n    at dartProgram (http://127.0.0.1:8240/probe.js:4018:5)\n    at http://127.0.0.1:8240/probe.js:4027:3"
+      }
+    ],
+    "resources": [
+      "http://127.0.0.1:8240/probe.js",
+      "http://127.0.0.1:8240/favicon.ico"
+    ]
+  },
+  "complete": true
+}

@@ -1,0 +1,12 @@
+{
+  "dart": "Dart SDK version: 3.13.5 (stable) (Tue Sep 29 01:00:52 2026 -0700) on \"macos_arm64\"",
+  "chrome": "Google Chrome 155.0.8059.85",
+  "node": "v26.11.1",
+  "npm": "11.20.0",
+  "python": "Python 3.9.6",
+  "git": "git version 2.54.0 (Apple Git-157)",
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t27.0.1\nBuildVersion:\t\t26A434",
+  "architecture": "arm64",
+  "puppeteer-core": "25.15.0",
+  "mode": "Flutter web profile; --no-minify-wasm for dart2wasm; headless Chrome with --enable-unsafe-swiftshader"
+}

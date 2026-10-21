@@ -1,0 +1,627 @@
+{
+  "capturedAt": "2026-10-21T07:46:20.313Z",
+  "url": "http://127.0.0.1:8223",
+  "browser": "Chrome/155.0.8059.85",
+  "console": [
+    {
+      "type": "log",
+      "text": "[repro] START label=newest compiler=dart2wasm"
+    },
+    {
+      "type": "log",
+      "text": "[repro] INIT true"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD rewards.riv bytes=221069"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED rewards.riv viewModels=6"
+    },
+    {
+      "type": "log",
+      "text": "[repro] MODEL Rewards"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS before number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS before enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK before file.enums\n    at M._throwErrorWithoutDetails (http://127.0.0.1:8223/main.dart.wasm:wasm-function[840]:0xc06b4)\n    at M._CastListBase.[] (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1350]:0xd2165)\n    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1356]:0xd2234)\n    at M.ListIterator.moveNext (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1144]:0xc8ca1)\n    at M.new GrowableList.of (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1123]:0xc85dd)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9250]:0x199ef3)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 1 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 1 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 2 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 2 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 3 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 3 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 4 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 4 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 5 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 5 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 6 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 6 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 7 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 7 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 8 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 8 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 9 number(Coin/Item_Value): 1300.0"
+    },
+    {
+      "type": "log",
+      "text": "[repro] PASS after large 9 enumerator(Item_Selection/Item_Selection): Gem"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[memory.grow] {\"before\":67108864,\"after\":80543744,\"delta\":205,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c\"}"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 10 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 10 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 10 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 11 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 11 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 11 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 11 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOAD semantics.riv bytes=5280176"
+    },
+    {
+      "type": "log",
+      "text": "[repro] LOADED semantics.riv viewModels=11"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 12 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 12 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after large 12 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after large 12 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199297)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK after file.enums\n    at M._throwErrorWithoutDetails (http://127.0.0.1:8223/main.dart.wasm:wasm-function[840]:0xc06b4)\n    at M._CastListBase.[] (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1350]:0xd2165)\n    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1356]:0xd2234)\n    at M.ListIterator.moveNext (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1144]:0xc8ca1)\n    at M.new GrowableList.of (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1123]:0xc85dd)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9250]:0x199ef3)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL retry number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK retry number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9254]:0x19a0b1)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999db)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199356)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] FAIL retry enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    },
+    {
+      "type": "log",
+      "text": "[repro] STACK retry enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1836]:0xdf5e1)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[1722]:0xde2c2)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8223/main.dart.wasm:wasm-function[4652]:0x126a00)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9262]:0x19a33c)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9255]:0x19a17c)\n    at M._ReproState.check (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9249]:0x199e7e)\n    at M._ReproState.readPaths (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9225]:0x1999f8)\n    at M._ReproState.run inner (http://127.0.0.1:8223/main.dart.wasm:wasm-function[9221]:0x199356)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8223/main.dart.wasm:wasm-function[919]:0xc2260)"
+    },
+    {
+      "type": "log",
+      "text": "[repro] DONE"
+    }
+  ],
+  "pageErrors": [],
+  "requests": [
+    "http://127.0.0.1:8223/",
+    "http://127.0.0.1:8223/flutter_bootstrap.js",
+    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
+    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+    "http://127.0.0.1:8223/main.dart.mjs",
+    "http://127.0.0.1:8223/main.dart.wasm",
+    "http://127.0.0.1:8223/assets/FontManifest.json",
+    "http://127.0.0.1:8223/assets/fonts/MaterialIcons-Regular.otf",
+    "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
+    "blob:http://127.0.0.1:8223/4b7a5054-9e7e-4aee-b9b9-180a406ca65e",
+    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+    "http://127.0.0.1:8223/assets/assets/rewards.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv",
+    "http://127.0.0.1:8223/assets/assets/semantics.riv"
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8223/",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "388",
+        "content-type": "text/html",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:33 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/flutter_bootstrap.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "13211",
+        "content-type": "text/javascript",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:33 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/main.dart.mjs",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "33073",
+        "content-type": "text/javascript",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:42 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/main.dart.wasm",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "2908056",
+        "content-type": "application/wasm",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:53 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/FontManifest.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "82",
+        "content-type": "application/json",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:54 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/fonts/MaterialIcons-Regular.otf",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "7972",
+        "content-type": "font/otf",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Wed, 21 Oct 2026 07:38:55 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/rewards.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "221069",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "5280176",
+        "content-type": "application/octet-stream",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Wed, 21 Oct 2026 07:46:20 GMT",
+        "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    }
+  ],
+  "environment": {
+    "crossOriginIsolated": true,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "memoryGrowth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true,
+        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"
+      }
+    ],
+    "resources": [
+      "http://127.0.0.1:8223/flutter_bootstrap.js",
+      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
+      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+      "http://127.0.0.1:8223/main.dart.mjs",
+      "http://127.0.0.1:8223/main.dart.wasm",
+      "http://127.0.0.1:8223/assets/FontManifest.json",
+      "http://127.0.0.1:8223/assets/fonts/MaterialIcons-Regular.otf",
+      "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+      "http://127.0.0.1:8223/assets/assets/rewards.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv",
+      "http://127.0.0.1:8223/assets/assets/semantics.riv"
+    ]
+  },
+  "complete": true
+}

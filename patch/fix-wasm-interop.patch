@@ -1,0 +1,65 @@
+From 7a79c959442dc4f27be316fedefe3c3951f8753e Mon Sep 17 00:00:00 2001
+From: rydmike <mrydstrom+gh@gmail.com>
+Date: Wed, 21 Oct 2026 10:36:44 +0300
+Subject: [PATCH 1/2] Convert JavaScript enum values to Dart strings
+
+A JS array's .toDart converts the array, not its elements. Under dart2wasm the elements remain JS values, so a lazy cast to String fails when read. Convert each JSString explicitly before returning the values.
+---
+ lib/src/web/rive_web.dart | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/lib/src/web/rive_web.dart b/lib/src/web/rive_web.dart
+index 4ca4eb9..3a21833 100644
+--- a/lib/src/web/rive_web.dart
++++ b/lib/src/web/rive_web.dart
+@@ -778,9 +778,11 @@ class WebRiveFile extends File {
+     for (int i = 0; i < length; i++) {
+       final jsProp = result.getProperty(i.toJS) as js.JSObject;
+       final name = (jsProp.getProperty('name'.toJS) as js.JSString).toDart;
++      // JSArray.toDart converts the array, not its JS string elements.
+       final values = (jsProp.getProperty('values'.toJS) as js.JSArray)
+           .toDart
+-          .cast<String>();
++          .map((e) => (e as js.JSString).toDart)
++          .toList();
+       dataEnums.add(DataEnum(name, values));
+     }
+     return dataEnums;
+-- 
+2.54.0 (Apple Git-157)
+
+
+From 71a354332f0693f2058d5634dfaaeb101ff5a87b Mon Sep 17 00:00:00 2001
+From: rydmike <mrydstrom+gh@gmail.com>
+Date: Wed, 21 Oct 2026 10:36:44 +0300
+Subject: [PATCH 2/2] Refresh live Wasm buffer views before access
+
+The Dart wrapper for a typed array caches its length under dart2wasm, so isEmpty cannot detect a detached view after memory growth. Recreate the heap view on every non-disposed access while retaining the disposed-pointer guard.
+---
+ lib/src/rive_native_web.dart | 11 +++--------
+ 1 file changed, 3 insertions(+), 8 deletions(-)
+
+diff --git a/lib/src/rive_native_web.dart b/lib/src/rive_native_web.dart
+index 231a45d..b9c77b4 100644
+--- a/lib/src/rive_native_web.dart
++++ b/lib/src/rive_native_web.dart
+@@ -722,14 +722,9 @@ class WasmBuffer {
+   final int size;
+ 
+   Uint8List get data {
+-    // As WebAssembly memory grows it might invalidate the JavaScript
+-    // TypedArray views.
+-    // In the event these views are detached, we need to recreate them.
+-    // This can happen when loading large .riv files or when the WASM memory
+-    // is expanded.
+-    // Only recreate the data if it is empty and the pointer is not 0 (disposed).
+-    // See: https://github.com/emscripten-core/emscripten/issues/7294
+-    if (_data.isEmpty && _pointer != 0.toJS) {
++    // Memory growth detaches old heap views. dart2wasm caches their length,
++    // so isEmpty cannot detect detachment. Refresh every non-disposed access.
++    if (_pointer != 0.toJS) {
+       _data = RiveWasm.heap((_pointer as js.JSNumber).toDartInt, size);
+       return _data;
+     }
+-- 
+2.54.0 (Apple Git-157)

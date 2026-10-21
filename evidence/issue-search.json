@@ -1,0 +1,339 @@
+{
+  "date_utc": "2026-10-21T07:37:55Z",
+  "authenticated": false,
+  "scope": "Open and closed issues; no state filter. GitHub issue search API, all returned results retained.",
+  "searches": [
+    {
+      "term": "wasm",
+      "query": "repo:rive-app/rive-flutter is:issue wasm",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+wasm&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20wasm",
+      "total_count": 20,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 615,
+          "state": "open",
+          "title": "[Web] file_loader.dart:91 throws \"Unexpected null value\" in non-WASM builds",
+          "url": "https://github.com/rive-app/rive-flutter/issues/615"
+        },
+        {
+          "number": 628,
+          "state": "open",
+          "title": "[Flutter Web] Memory leak: Infinite memory growth with looping animation even after stopping",
+          "url": "https://github.com/rive-app/rive-flutter/issues/628"
+        },
+        {
+          "number": 593,
+          "state": "open",
+          "title": "[WASM] ViewModelInstance and StateMachine input methods fail with JavaScriptError",
+          "url": "https://github.com/rive-app/rive-flutter/issues/593"
+        },
+        {
+          "number": 644,
+          "state": "open",
+          "title": "Web: dynamically bound nested artboard (artboard property + ArtboardComponentList) never receives pointer events when slot assign and list population run in the same batch",
+          "url": "https://github.com/rive-app/rive-flutter/issues/644"
+        },
+        {
+          "number": 575,
+          "state": "open",
+          "title": "Rive.batchAdvanceAndRender Does not work on web.",
+          "url": "https://github.com/rive-app/rive-flutter/issues/575"
+        },
+        {
+          "number": 407,
+          "state": "open",
+          "title": "in a flutter web project\uff0chow to import js and wasm file local not use cdn",
+          "url": "https://github.com/rive-app/rive-flutter/issues/407"
+        },
+        {
+          "number": 652,
+          "state": "open",
+          "title": "Web (Factory.rive): embedded image assets appear to re-upload to the GPU on every artboard draw",
+          "url": "https://github.com/rive-app/rive-flutter/issues/652"
+        },
+        {
+          "number": 561,
+          "state": "closed",
+          "title": "rive in flutter web not initialized",
+          "url": "https://github.com/rive-app/rive-flutter/issues/561"
+        },
+        {
+          "number": 580,
+          "state": "closed",
+          "title": "rive_native fail on web with uncaught promise error web",
+          "url": "https://github.com/rive-app/rive-flutter/issues/580"
+        },
+        {
+          "number": 468,
+          "state": "closed",
+          "title": "Unable to avoid unsafe-eval in Flutter web",
+          "url": "https://github.com/rive-app/rive-flutter/issues/468"
+        },
+        {
+          "number": 370,
+          "state": "closed",
+          "title": "Rive texts error with font: LateInitializationError: Field '_makeFont' has not been initialized",
+          "url": "https://github.com/rive-app/rive-flutter/issues/370"
+        },
+        {
+          "number": 313,
+          "state": "closed",
+          "title": "Large .pub-cache size for android builds",
+          "url": "https://github.com/rive-app/rive-flutter/issues/313"
+        },
+        {
+          "number": 391,
+          "state": "closed",
+          "title": "Failed build for Flutter Web WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/391"
+        },
+        {
+          "number": 411,
+          "state": "closed",
+          "title": "Rive animation causes device overheating by using all the CPU power",
+          "url": "https://github.com/rive-app/rive-flutter/issues/411"
+        },
+        {
+          "number": 375,
+          "state": "closed",
+          "title": "Migrate to `package:web` to support WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/375"
+        },
+        {
+          "number": 389,
+          "state": "closed",
+          "title": "Error: LateInitializationError: Field '_makeYogaStyle' has not been initialized.",
+          "url": "https://github.com/rive-app/rive-flutter/issues/389"
+        },
+        {
+          "number": 381,
+          "state": "closed",
+          "title": "Rive assets not render on web",
+          "url": "https://github.com/rive-app/rive-flutter/issues/381"
+        },
+        {
+          "number": 341,
+          "state": "closed",
+          "title": "Accessing state machine controller / inputs for nested artboards via code",
+          "url": "https://github.com/rive-app/rive-flutter/issues/341"
+        },
+        {
+          "number": 337,
+          "state": "closed",
+          "title": "Rive file with text crash",
+          "url": "https://github.com/rive-app/rive-flutter/issues/337"
+        },
+        {
+          "number": 338,
+          "state": "closed",
+          "title": "Text - wrong font is loaded",
+          "url": "https://github.com/rive-app/rive-flutter/issues/338"
+        }
+      ]
+    },
+    {
+      "term": "dart2wasm",
+      "query": "repo:rive-app/rive-flutter is:issue dart2wasm",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+dart2wasm&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20dart2wasm",
+      "total_count": 2,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 652,
+          "state": "open",
+          "title": "Web (Factory.rive): embedded image assets appear to re-upload to the GPU on every artboard draw",
+          "url": "https://github.com/rive-app/rive-flutter/issues/652"
+        },
+        {
+          "number": 391,
+          "state": "closed",
+          "title": "Failed build for Flutter Web WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/391"
+        }
+      ]
+    },
+    {
+      "term": "WasmGC",
+      "query": "repo:rive-app/rive-flutter is:issue WasmGC",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+WasmGC&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20WasmGC",
+      "total_count": 1,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 391,
+          "state": "closed",
+          "title": "Failed build for Flutter Web WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/391"
+        }
+      ]
+    },
+    {
+      "term": "skwasm",
+      "query": "repo:rive-app/rive-flutter is:issue skwasm",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+skwasm&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20skwasm",
+      "total_count": 3,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 652,
+          "state": "open",
+          "title": "Web (Factory.rive): embedded image assets appear to re-upload to the GPU on every artboard draw",
+          "url": "https://github.com/rive-app/rive-flutter/issues/652"
+        },
+        {
+          "number": 640,
+          "state": "open",
+          "title": "Shared-texture RiveWidget mispositioned when an ancestor MediaQuery overrides devicePixelRatio",
+          "url": "https://github.com/rive-app/rive-flutter/issues/640"
+        },
+        {
+          "number": 391,
+          "state": "closed",
+          "title": "Failed build for Flutter Web WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/391"
+        }
+      ]
+    },
+    {
+      "term": "detached",
+      "query": "repo:rive-app/rive-flutter is:issue detached",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+detached&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20detached",
+      "total_count": 2,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 628,
+          "state": "open",
+          "title": "[Flutter Web] Memory leak: Infinite memory growth with looping animation even after stopping",
+          "url": "https://github.com/rive-app/rive-flutter/issues/628"
+        },
+        {
+          "number": 661,
+          "state": "open",
+          "title": "Android: deferred texture disposal blocks the main thread while GL pipelines link (0.2.0-dev.3)",
+          "url": "https://github.com/rive-app/rive-flutter/issues/661"
+        }
+      ]
+    },
+    {
+      "term": "enums",
+      "query": "repo:rive-app/rive-flutter is:issue enums",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+enums&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20enums",
+      "total_count": 0,
+      "incomplete_results": false,
+      "issues": []
+    },
+    {
+      "term": "cast",
+      "query": "repo:rive-app/rive-flutter is:issue cast",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+cast&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20cast",
+      "total_count": 10,
+      "incomplete_results": false,
+      "issues": [
+        {
+          "number": 610,
+          "state": "open",
+          "title": "nativeTexture()  and  rivePresentingTexture() not exported in native/platform/windows/rive_native_windows.cpp",
+          "url": "https://github.com/rive-app/rive-flutter/issues/610"
+        },
+        {
+          "number": 662,
+          "state": "open",
+          "title": "Android: Luau offscreen Canvas content is blank because AndroidRenderTextureFrameSink does not restore GL state before canvas replay (0.2.0-dev.3)",
+          "url": "https://github.com/rive-app/rive-flutter/issues/662"
+        },
+        {
+          "number": 612,
+          "state": "open",
+          "title": "nativeTexture FFI lookup targets wrong DLL and renderTextureObjPtr getter missing in  lib/src/rive_native_ffi.dart",
+          "url": "https://github.com/rive-app/rive-flutter/issues/612"
+        },
+        {
+          "number": 531,
+          "state": "closed",
+          "title": "[Android] Build fails with 'cast from pointer to smaller type 'uintptr_t' loses information' on arm64-v8a",
+          "url": "https://github.com/rive-app/rive-flutter/issues/531"
+        },
+        {
+          "number": 291,
+          "state": "closed",
+          "title": "Ubuntu flutter app fails to build after 0.9.1 - 0.10.1 upgrade. Cmake compile failure undefined symbols",
+          "url": "https://github.com/rive-app/rive-flutter/issues/291"
+        },
+        {
+          "number": 453,
+          "state": "closed",
+          "title": "Compilation error in `rive_common-0.4.15` on Flutter 3.27.1 / Dart 3.6.0",
+          "url": "https://github.com/rive-app/rive-flutter/issues/453"
+        },
+        {
+          "number": 323,
+          "state": "closed",
+          "title": "Flutter app does not compile with latest Rive and results in an error coming from `rive_common` package.",
+          "url": "https://github.com/rive-app/rive-flutter/issues/323"
+        },
+        {
+          "number": 341,
+          "state": "closed",
+          "title": "Accessing state machine controller / inputs for nested artboards via code",
+          "url": "https://github.com/rive-app/rive-flutter/issues/341"
+        },
+        {
+          "number": 143,
+          "state": "closed",
+          "title": "Some observations and requests",
+          "url": "https://github.com/rive-app/rive-flutter/issues/143"
+        },
+        {
+          "number": 340,
+          "state": "closed",
+          "title": "problem (cpp\\include\\rive/math/mat2d.hpp(17,5): error : definition of implicit copy assignment operator for 'Mat2D' is deprecated because ....]) compiling flutter project for windows",
+          "url": "https://github.com/rive-app/rive-flutter/issues/340"
+        }
+      ]
+    },
+    {
+      "term": "JSValue",
+      "query": "repo:rive-app/rive-flutter is:issue JSValue",
+      "api_url": "https://api.github.com/search/issues?q=repo%3Arive-app%2Frive-flutter+is%3Aissue+JSValue&per_page=100",
+      "search_url": "https://github.com/rive-app/rive-flutter/issues?q=is%3Aissue%20JSValue",
+      "total_count": 0,
+      "incomplete_results": false,
+      "issues": []
+    }
+  ],
+  "review": {
+    "enum_defect": "No exact enum-list JSValue/String conversion report found among the returned issues.",
+    "heap_view_defect": "Existing symptom match: issue #628 comment reports Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer. Same root cause cannot be proved from that comment alone.",
+    "related_api_failure": "Issue #593 reports Wasm ViewModelInstance number/string/boolean/trigger JavaScriptErrors. It has no stack, reproduction or comments at review time; overlap with the heap-view defect remains possible.",
+    "not_a_duplicate_claim": false,
+    "reviewed_links": [
+      "https://github.com/rive-app/rive-flutter/issues/628#issuecomment-4322984209",
+      "https://github.com/rive-app/rive-flutter/issues/593",
+      "https://github.com/rive-app/rive-flutter/issues/615",
+      "https://github.com/rive-app/rive-flutter/issues/391",
+      "https://github.com/rive-app/rive-flutter/issues/375",
+      "https://github.com/rive-app/rive-flutter/issues/561",
+      "https://github.com/rive-app/rive-flutter/issues/652"
+    ],
+    "documentation_forum_searches": [
+      {
+        "query": "site:rive.app/docs runtimes flutter wasm enums detached",
+        "result": "No documented correction for these two Dart interop failures found."
+      },
+      {
+        "query": "site:community.rive.app Flutter wasm JSValue enums detached",
+        "result": "No answer for these two failures found; runtime update and CDN discussions were unrelated."
+      }
+    ],
+    "caveat": "Search is not proof of absence. No claim that this is not a duplicate; leave that required submission checkbox unchecked pending publisher triage."
+  }
+}

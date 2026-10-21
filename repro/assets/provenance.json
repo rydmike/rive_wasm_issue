@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/rive-app/rive-flutter",
+  "commit": "ea12899e80f284b680dae51c6aed88e86ee6cfe7",
+  "license": "MIT; see LICENSE.rive-flutter",
+  "files": [
+    {
+      "name": "rewards.riv",
+      "bytes": 221069,
+      "sha256": "63e543092899e68a699ea043b90febc8876454e555fa2990908d24cc1a188cfc",
+      "source": "https://github.com/rive-app/rive-flutter/blob/ea12899e80f284b680dae51c6aed88e86ee6cfe7/example/assets/rewards.riv",
+      "raw": "https://raw.githubusercontent.com/rive-app/rive-flutter/ea12899e80f284b680dae51c6aed88e86ee6cfe7/example/assets/rewards.riv"
+    },
+    {
+      "name": "semantics.riv",
+      "bytes": 5280176,
+      "sha256": "528902f4515dcab6293e9905f3086733ad3028fba8d0c971f99f4683bda88a62",
+      "source": "https://github.com/rive-app/rive-flutter/blob/ea12899e80f284b680dae51c6aed88e86ee6cfe7/example/assets/semantics.riv",
+      "raw": "https://raw.githubusercontent.com/rive-app/rive-flutter/ea12899e80f284b680dae51c6aed88e86ee6cfe7/example/assets/semantics.riv"
+    }
+  ]
+}

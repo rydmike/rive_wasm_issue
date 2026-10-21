@@ -1,0 +1,8 @@
+[error] Failed to load resource: the server responded with a status of 404 (File not found)
+[log] [repro] old enum cast error: Type 'JSValue' is not a subtype of type 'String' in type cast
+[log] [repro] converted enum: [Coin, Gem]
+[log] [repro] before grow Dart length=1024 isEmpty=false bufferBytes=65536
+[log] [memory.grow] {"before":65536,"after":131072,"delta":1,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at R (http://127.0.0.1:8240/probe.mjs:110:28)\n    at M.callMethodVarArgsRaw (http://127.0.0.1:8240/probe.wasm:wasm-function[345]:0x9376)\n    at M.JSObjectUnsafeUtilExtension|_callMethod (http://127.0.0.1:8240/probe.wasm:wasm-function[251]:0x7bcc)\n    at M.JSObjectUnsafeUtilExtension|callMethod (http://127.0.0.1:8240/probe.wasm:wasm-function[225]:0x78ac)\n    at M.main (http://127.0.0.1:8240/probe.wasm:wasm-function[204]:0x7487)\n    at M._invokeMainArg0 (http://127.0.0.1:8240/probe.wasm:wasm-function[203]:0x734c)\n    at M._invokeMainInternal (http://127.0.0.1:8240/probe.wasm:wasm-function[48]:0x5a3b)\n    at M._invokeMain (http://127.0.0.1:8240/probe.wasm:wasm-function[38]:0x596b)\n    at InstantiatedApp.invokeMain (http://127.0.0.1:8240/probe.mjs:215:37)"}
+[log] [repro] after grow JS length=0 Dart length=1024 isEmpty=false bufferBytes=0
+[log] [repro] stale write error: TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer
+[log] [repro] DONE

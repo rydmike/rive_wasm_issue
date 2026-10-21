@@ -1,0 +1,11 @@
+newest-wasm: 20 PASS, 10 FAIL; enums=2, paths=8; dart2wasm; real Rive heap growth
+newest-js: 30 PASS, 0 FAIL; enums=0, paths=0; dart2js; real Rive heap growth
+fixed-wasm: 30 PASS, 0 FAIL; enums=0, paths=0; dart2wasm; real Rive heap growth
+fixed-js: 30 PASS, 0 FAIL; enums=0, paths=0; dart2js; real Rive heap growth
+stable-wasm: 20 PASS, 10 FAIL; enums=2, paths=8; dart2wasm; real Rive heap growth
+stable-js: 30 PASS, 0 FAIL; enums=0, paths=0; dart2js; real Rive heap growth
+a-only-wasm: 22 PASS, 8 FAIL; enums=0, paths=8; dart2wasm; real Rive heap growth
+a-only-js: 30 PASS, 0 FAIL; enums=0, paths=0; dart2js; real Rive heap growth
+b-only-wasm: 28 PASS, 2 FAIL; enums=2, paths=0; dart2wasm; real Rive heap growth
+b-only-js: 30 PASS, 0 FAIL; enums=0, paths=0; dart2js; real Rive heap growth
+Validated 10 captured cases; no expected failure counts were imposed.

@@ -1,0 +1,62 @@
+[debug] Injecting <script> tag. Using callback.
+[log] [repro] START label=newest compiler=dart2js
+[log] [repro] INIT true
+[log] [repro] LOAD rewards.riv bytes=221069
+[log] [repro] LOADED rewards.riv viewModels=6
+[log] [repro] MODEL Rewards
+[log] [repro] PASS before number(Coin/Item_Value): 1300
+[log] [repro] PASS before enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] PASS before file.enums: Item_Selection=[Coin, Gem]
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 1 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 1 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 2 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 2 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 3 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 3 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 4 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 4 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 5 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 5 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 6 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 6 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 7 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 7 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 8 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 8 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 9 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 9 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [memory.grow] {"before":67108864,"after":80543744,"delta":205,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"}
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 10 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 10 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 11 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 11 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] LOAD semantics.riv bytes=5280176
+[log] [repro] LOADED semantics.riv viewModels=11
+[log] [repro] PASS after large 12 number(Coin/Item_Value): 1300
+[log] [repro] PASS after large 12 enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] PASS after file.enums: Item_Selection=[Coin, Gem]
+[log] [repro] PASS retry number(Coin/Item_Value): 1300
+[log] [repro] PASS retry enumerator(Item_Selection/Item_Selection): Gem
+[log] [repro] DONE

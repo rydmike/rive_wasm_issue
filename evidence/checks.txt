@@ -1,0 +1,30 @@
+Verification on Flutter 3.47.7 / Dart 3.13.5 (2026-10-21 UTC)
+
+flutter analyze (in repro):
+Analyzing repro...
+No issues found! (ran in 4.6s)
+
+dart format --output=none --set-exit-if-changed lib:
+Formatted 1 file (0 changed) in 0.01 seconds.
+
+Python tool syntax: passed (workspace-local bytecode cache).
+node --check tool/capture.mjs: passed.
+sh -n tool/make-zip.sh: passed.
+
+Runtime: ten completed cases, 30 reads each; observed results in matrix.json.
+All successful reads returned the expected values, in both compilers.
+Every case observed real Rive growth after decode 9 and before read 10.
+Both independent Dart 3.13.5 diagnostics completed without uncaught errors.
+
+The issue form's eleven labels, order and all three checkbox texts match the
+upstream YAML snapshot exactly. Flutter version block is verbatim SDK output.
+Public fixture bytes, sizes, SHA-256 and upstream license text match their
+pinned raw GitHub sources byte-for-byte.
+Published native baseline: all 2882 regular files and executable bits match.
+Two-commit format-patch applies with git am and reproduces the branch files.
+Root patch and the patch included in this repository are byte-identical.
+
+The final staged/committed files and ZIP were checked for private absolute
+paths, attribution trailers and generated dependency/build/profile files.
+Git identity is set locally in each deliverable repository.
+No remote repository, issue or comment was created or edited.

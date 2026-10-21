@@ -1,0 +1,12 @@
+<!doctype html><html><body><pre>Isolated JS interop diagnostic (see console)</pre><script>
+globalThis.probeMemory=new WebAssembly.Memory({initial:1,maximum:2});
+globalThis.probeView=new Uint8Array(probeMemory.buffer,0,1024);
+</script><script type="module">
+if (location.search.includes('js')) {
+  const script=document.createElement('script'); script.src='probe.js'; document.body.append(script);
+} else {
+  const {compileStreaming}=await import('./probe.mjs');
+  const app=await compileStreaming(fetch('./probe.wasm'));
+  (await app.instantiate({})).invokeMain();
+}
+</script></body></html>

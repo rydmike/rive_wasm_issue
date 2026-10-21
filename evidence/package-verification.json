@@ -1,0 +1,20 @@
+{
+  "archive_sha256": "0acff64554fc0973a6624daa0b0c0261ec00cde744df4b9e3daea2fa8a7b85a8",
+  "archive_file_count": 2882,
+  "main_matches_every_archive_file": true,
+  "executable_bits_match": true,
+  "main_commit_count": 1,
+  "correction_commit_count": 2,
+  "tag_points_to_main": true,
+  "changed_files": [
+    "lib/src/rive_native_web.dart",
+    "lib/src/web/rive_web.dart"
+  ],
+  "format_patch_git_am_verified": true,
+  "git_am_result_matches_tested_branch": true,
+  "main_commit": "8515ad6329e689b7761e52eeda6cafce23273032",
+  "correction_commits": [
+    "7a79c959442dc4f27be316fedefe3c3951f8753e",
+    "71a354332f0693f2058d5634dfaaeb101ff5a87b"
+  ]
+}

@@ -1,0 +1,8 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+< rive 0.14.11 (was 0.15.0-dev.3)
+* rive_native 0.1.11 (was 0.2.0-dev.3 from path ../../rive_native)
+Changed 2 dependencies!
+1 package has newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

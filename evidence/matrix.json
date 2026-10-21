@@ -1,0 +1,271 @@
+[
+  {
+    "case": "newest-wasm",
+    "compiler": "dart2wasm",
+    "pass": 20,
+    "fail": 10,
+    "enum_failures": 2,
+    "path_failures": 8,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:20.313Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8223/main.dart.mjs",
+      "http://127.0.0.1:8223/main.dart.wasm"
+    ],
+    "failures": [
+      "[repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)",
+      "[repro] FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 10 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)",
+      "[repro] FAIL retry number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL retry enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    ]
+  },
+  {
+    "case": "newest-js",
+    "compiler": "dart2js",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:22.250Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8224/main.dart.js"
+    ],
+    "failures": []
+  },
+  {
+    "case": "fixed-wasm",
+    "compiler": "dart2wasm",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:24.416Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8225/main.dart.mjs",
+      "http://127.0.0.1:8225/main.dart.wasm"
+    ],
+    "failures": []
+  },
+  {
+    "case": "fixed-js",
+    "compiler": "dart2js",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:26.098Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8226/main.dart.js"
+    ],
+    "failures": []
+  },
+  {
+    "case": "stable-wasm",
+    "compiler": "dart2wasm",
+    "pass": 20,
+    "fail": 10,
+    "enum_failures": 2,
+    "path_failures": 8,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:27.979Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8227/main.dart.mjs",
+      "http://127.0.0.1:8227/main.dart.wasm"
+    ],
+    "failures": [
+      "[repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)",
+      "[repro] FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 10 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)",
+      "[repro] FAIL retry number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL retry enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    ]
+  },
+  {
+    "case": "stable-js",
+    "compiler": "dart2js",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:29.665Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8228/main.dart.js"
+    ],
+    "failures": []
+  },
+  {
+    "case": "a-only-wasm",
+    "compiler": "dart2wasm",
+    "pass": 22,
+    "fail": 8,
+    "enum_failures": 0,
+    "path_failures": 8,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:31.553Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8229/main.dart.mjs",
+      "http://127.0.0.1:8229/main.dart.wasm"
+    ],
+    "failures": [
+      "[repro] FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 10 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 11 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL after large 12 enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL retry number(Coin/Item_Value): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer",
+      "[repro] FAIL retry enumerator(Item_Selection/Item_Selection): TypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer"
+    ]
+  },
+  {
+    "case": "a-only-js",
+    "compiler": "dart2js",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:33.227Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8230/main.dart.js"
+    ],
+    "failures": []
+  },
+  {
+    "case": "b-only-wasm",
+    "compiler": "dart2wasm",
+    "pass": 28,
+    "fail": 2,
+    "enum_failures": 2,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:35.094Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8231/main.dart.mjs",
+      "http://127.0.0.1:8231/main.dart.wasm"
+    ],
+    "failures": [
+      "[repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)",
+      "[repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)"
+    ]
+  },
+  {
+    "case": "b-only-js",
+    "compiler": "dart2js",
+    "pass": 30,
+    "fail": 0,
+    "enum_failures": 0,
+    "path_failures": 0,
+    "crossOriginIsolated": true,
+    "capturedAt": "2026-10-21T07:46:36.778Z",
+    "browser": "Chrome/155.0.8059.85",
+    "growth": [
+      {
+        "before": 67108864,
+        "after": 80543744,
+        "delta": 205,
+        "detached": true
+      }
+    ],
+    "app_requests": [
+      "http://127.0.0.1:8232/main.dart.js"
+    ],
+    "failures": []
+  }
+]

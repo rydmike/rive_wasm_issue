@@ -1,0 +1,8 @@
+[log] [repro] old enum cast: Coin
+[log] [repro] converted enum: [Coin, Gem]
+[log] [repro] before grow Dart length=1024 isEmpty=false bufferBytes=65536
+[log] [memory.grow] {"before":65536,"after":131072,"delta":1,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at Object.JSObjectUnsafeUtilExtension__callMethod (http://127.0.0.1:8240/probe.js:2941:29)\n    at main (http://127.0.0.1:8240/probe.js:2906:21)\n    at http://127.0.0.1:8240/probe.js:4024:7\n    at http://127.0.0.1:8240/probe.js:4005:7\n    at dartProgram (http://127.0.0.1:8240/probe.js:4018:5)\n    at http://127.0.0.1:8240/probe.js:4027:3"}
+[log] [repro] after grow JS length=0 Dart length=0 isEmpty=true bufferBytes=0
+[log] [repro] stale write error: RangeError (index): Index out of range: no indices are valid: 0
+[log] [repro] DONE
+[error] Failed to load resource: the server responded with a status of 404 (File not found)

@@ -1,0 +1,7 @@
+Resolving dependencies...
+Downloading packages...
+  material_color_utilities 0.13.0 (0.13.1 available)
+! rive_native 0.2.0-dev.3 from path ../.work/a-only (overridden in ./pubspec_overrides.yaml)
+Got dependencies!
+1 package has newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

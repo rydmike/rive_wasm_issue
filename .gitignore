@@ -1,0 +1,15 @@
+# Generated Flutter, dependency, browser and run artifacts.
+.work/
+**/.dart_tool/
+**/build/
+**/node_modules/
+**/pubspec_overrides.yaml
+**/.flutter-plugins*
+**/.packages
+**/*.log.tmp
+**/chrome-profile*/
+.DS_Store
+**/__pycache__/
+**/*.pyc
+capture.json
+capture.png
