@@ -334,6 +334,6 @@
         "result": "No answer for these two failures found; runtime update and CDN discussions were unrelated."
       }
     ],
-    "caveat": "Search is not proof of absence. No claim that this is not a duplicate; leave that required submission checkbox unchecked pending publisher triage."
+    "caveat": "Search is not proof of absence. The two related reports (a comment on #628 and issue #593) describe symptoms without a root cause or a reproduction."
   }
 }
