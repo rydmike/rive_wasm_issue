@@ -13,11 +13,11 @@ verbatim from pub.dev:
 [`.patch`](https://github.com/rydmike/rive_native/compare/main...fix-wasm-interop.patch).
 The same patch is included [locally](patch/fix-wasm-interop.patch).
 
-There is existing related evidence: [a comment on #628](https://github.com/rive-app/rive-flutter/issues/628#issuecomment-4322984209)
-already reports the identical detached-buffer error, and [#593](https://github.com/rive-app/rive-flutter/issues/593)
-reports Wasm failures in the same view-model APIs. The final submission checkbox
-is intentionally unchecked; this report makes no claim that it is not a duplicate.
-The reproduction may be useful as additional evidence on those threads.
+Related reports: [a comment on #628](https://github.com/rive-app/rive-flutter/issues/628#issuecomment-4322984209)
+describes the identical detached-buffer error, and [#593](https://github.com/rive-app/rive-flutter/issues/593)
+describes Wasm failures in the same view-model APIs, both without a root cause or
+a reproduction. This report adds two source causes, a public reproduction and a
+suggested correction.
 
 ## Issue form entries
 
@@ -27,7 +27,7 @@ The following subsections follow the upstream runtime issue form in order.
 
 - [x] I have confirmed the issue is present in the latest version of the `rive` Flutter package
 - [x] I have searched the documentation and forums and could not find an answer
-- [ ] I have searched existing issues and this is not a duplicate
+- [x] I have searched existing issues and this is not a duplicate
 
 ### Description
 
@@ -286,5 +286,5 @@ the earlier interop migration, and [#561](https://github.com/rive-app/rive-flutt
 an initialization/export failure. Those do not establish these two source causes.
 
 The Flutter documentation and community forum searches did not provide an
-answer for these failures. Search is not proof of absence; the publisher should
-review #628 and #593 before choosing where to submit the evidence.
+answer for these failures. Search cannot prove absence, so please point to any
+existing report this one duplicates.
