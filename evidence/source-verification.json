@@ -1,21 +1,21 @@
 [
   {
     "package": "rive_native",
-    "version": "0.2.0-dev.3",
-    "archive_url": "https://pub.dev/api/archives/rive_native-0.2.0-dev.3.tar.gz",
-    "archive_sha256": "0acff64554fc0973a6624daa0b0c0261ec00cde744df4b9e3daea2fa8a7b85a8",
+    "version": "0.2.0-dev.4",
+    "archive_url": "https://pub.dev/api/archives/rive_native-0.2.0-dev.4.tar.gz",
+    "archive_sha256": "c617034971488a3acbfb1f42ec47e39e5e43e66fbf84c36b1d468e5ac4cb20f9",
     "matches_pub_dev": true,
     "sources": {
       "lib/src/web/rive_web.dart": {
-        "sha256": "11dd043797eaca9e38b8ee9e1e445a3b476c75461ae6055472ee791f1de2eac5",
+        "sha256": "ec27681de6297e7c9ac8a09bc8d28570799dd1389c9c57e5207bd8c21632892e",
         "old_pattern_present": true
       },
       "lib/src/rive_native_web.dart": {
-        "sha256": "d36aa12f2470bba4ed73a9c46f1603c3c91dd37f9da5e9aec1df157437a3db13",
+        "sha256": "14091ca577a570622d57fb27583c1fac618fc399768b8370f06525803fc6ac64",
         "old_pattern_present": true
       }
     },
-    "unpatched_cached_library_file_count": 98,
+    "unpatched_cached_library_file_count": 108,
     "unpatched_cached_libraries_match_archive": true
   },
   {

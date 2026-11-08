@@ -16,6 +16,8 @@ REPRO = ROOT / 'repro'
 WORK = ROOT / '.work'
 EVIDENCE = ROOT / 'evidence'
 WORK.mkdir(exist_ok=True)
+# The correction branch in the rive_native copy.
+FIX = 'fix-wasm-interop-0.2.0-dev.4'
 EVIDENCE.mkdir(exist_ok=True)
 parser = argparse.ArgumentParser()
 parser.add_argument('stage', choices=['build', 'capture', 'all'])
@@ -57,20 +59,22 @@ def run(cmd, cwd=REPRO, log=None):
 if a.stage in ['build', 'all']:
     flutter = os.environ.get('FLUTTER_BIN')
     if not flutter:
-        parser.error('Set FLUTTER_BIN to the stable Flutter 3.47.7 executable')
+        parser.error('Set FLUTTER_BIN to the stable Flutter 3.47.9 executable')
     version = run([flutter, '--version'], log='flutter-version.txt')
-    if 'Flutter 3.47.7 • channel stable' not in version or 'Dart 3.13.5' not in version:
-        raise RuntimeError('Required Flutter 3.47.7 / Dart 3.13.5 was not found; stopped')
-    native = ROOT.parent / 'rive_native'
+    if 'Flutter 3.47.9 • channel stable' not in version or 'Dart 3.13.7' not in version:
+        raise RuntimeError('Required Flutter 3.47.9 / Dart 3.13.7 was not found; stopped')
+    # The sibling checkout by default; RIVE_NATIVE_DIR names another one,
+    # such as a git worktree of the correction branch.
+    native = Path(os.environ.get('RIVE_NATIVE_DIR', ROOT.parent / 'rive_native'))
     branch = run(['git', 'branch', '--show-current'], cwd=native).strip()
-    if branch != 'fix-wasm-interop':
-        raise RuntimeError('The sibling rive_native must be on fix-wasm-interop')
+    if branch != FIX:
+        raise RuntimeError('The rive_native checkout must be on '+FIX)
     if run(['git', 'diff', '--name-only', 'HEAD'], cwd=native).strip():
         raise RuntimeError('The sibling correction has tracked changes')
     refs = {name: run(['git','rev-parse',name],cwd=native).strip()
-            for name in ['main', 'fix-wasm-interop', 'fix-wasm-interop~1']}
+            for name in ['main', FIX, FIX+'~1']}
     # Isolate each correction using the actual committed objects, not the cache.
-    for variant, ref in [('a-only', 'fix-wasm-interop~1'), ('b-only', 'main')]:
+    for variant, ref in [('a-only', FIX+'~1'), ('b-only', 'main')]:
         dest = WORK / variant
         if dest.exists():
             shutil.rmtree(dest)

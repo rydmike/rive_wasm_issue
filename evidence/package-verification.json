@@ -1,10 +1,16 @@
 {
-  "archive_sha256": "0acff64554fc0973a6624daa0b0c0261ec00cde744df4b9e3daea2fa8a7b85a8",
-  "archive_file_count": 2882,
+  "package": "rive_native",
+  "version": "0.2.0-dev.4",
+  "archive_sha256": "c617034971488a3acbfb1f42ec47e39e5e43e66fbf84c36b1d468e5ac4cb20f9",
+  "archive_file_count": 3035,
   "main_matches_every_archive_file": true,
   "executable_bits_match": true,
-  "main_commit_count": 1,
+  "main_history": [
+    "1605bfeb12a2e833abd219dee5796f5ce22444fe rive_native 0.2.0-dev.4, verbatim from pub.dev",
+    "8515ad6329e689b7761e52eeda6cafce23273032 rive_native 0.2.0-dev.3, verbatim from pub.dev"
+  ],
   "correction_commit_count": 2,
+  "tag": "0.2.0-dev.4-verbatim",
   "tag_points_to_main": true,
   "changed_files": [
     "lib/src/rive_native_web.dart",
@@ -12,9 +18,10 @@
   ],
   "format_patch_git_am_verified": true,
   "git_am_result_matches_tested_branch": true,
-  "main_commit": "8515ad6329e689b7761e52eeda6cafce23273032",
+  "main_commit": "1605bfeb12a2e833abd219dee5796f5ce22444fe",
+  "correction_branch": "fix-wasm-interop-0.2.0-dev.4",
   "correction_commits": [
-    "7a79c959442dc4f27be316fedefe3c3951f8753e",
-    "71a354332f0693f2058d5634dfaaeb101ff5a87b"
+    "d4c5cdc97e41709d04248866ad5aadafb43a2f56",
+    "1b315630d29e270dd1aece085fe54362d6f2eb9f"
   ]
 }

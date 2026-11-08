@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-10-21T07:40:08.436291+00:00",
+  "checked_at_utc": "2026-11-08T16:31:51.504942+00:00",
   "packages": [
     {
       "package": "rive",
       "api_url": "https://pub.dev/api/packages/rive",
       "latest_stable": "0.14.11",
-      "last_published": "0.15.0-dev.3",
-      "last_published_at": "2026-09-28T15:54:17.865082Z"
+      "last_published": "0.15.0-dev.4",
+      "last_published_at": "2026-10-26T08:47:36.870457Z"
     },
     {
       "package": "rive_native",
       "api_url": "https://pub.dev/api/packages/rive_native",
       "latest_stable": "0.1.11",
-      "last_published": "0.2.0-dev.3",
-      "last_published_at": "2026-09-28T14:54:28.682279Z"
+      "last_published": "0.2.0-dev.4",
+      "last_published_at": "2026-10-23T22:37:41.595623Z"
     }
   ]
 }

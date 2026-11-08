@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-21T07:46:29.665Z",
+  "capturedAt": "2026-11-08T16:22:15.250Z",
   "url": "http://127.0.0.1:8228",
-  "browser": "Chrome/155.0.8059.85",
+  "browser": "Chrome/156.0.8078.81",
   "console": [
     {
       "type": "debug",
@@ -256,8 +256,8 @@
   "requests": [
     "http://127.0.0.1:8228/",
     "http://127.0.0.1:8228/flutter_bootstrap.js",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/chromium/canvaskit.wasm",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/chromium/canvaskit.js",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/chromium/canvaskit.wasm",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/chromium/canvaskit.js",
     "http://127.0.0.1:8228/main.dart.js",
     "http://127.0.0.1:8228/assets/FontManifest.json",
     "http://127.0.0.1:8228/assets/fonts/MaterialIcons-Regular.otf",
@@ -288,8 +288,8 @@
         "content-type": "text/html",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:29 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:11 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:50 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -302,8 +302,8 @@
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:29 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:11 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:50 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -312,12 +312,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "7240953",
+        "content-length": "7243012",
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:29 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:23 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:59 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -330,8 +330,8 @@
         "content-type": "application/json",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:29 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:23 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:00 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -344,8 +344,8 @@
         "content-type": "font/otf",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:29 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:01 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -358,7 +358,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -372,7 +372,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -386,7 +386,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -400,7 +400,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -414,7 +414,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -428,7 +428,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -442,7 +442,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -456,7 +456,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -470,7 +470,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -484,7 +484,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -498,7 +498,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -512,7 +512,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -526,7 +526,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:15 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -534,7 +534,7 @@
   ],
   "environment": {
     "crossOriginIsolated": true,
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
     "memoryGrowth": [
       {
         "before": 67108864,
@@ -546,8 +546,8 @@
     ],
     "resources": [
       "http://127.0.0.1:8228/flutter_bootstrap.js",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/chromium/canvaskit.wasm",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/chromium/canvaskit.js",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/chromium/canvaskit.wasm",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/chromium/canvaskit.js",
       "http://127.0.0.1:8228/main.dart.js",
       "http://127.0.0.1:8228/assets/FontManifest.json",
       "http://127.0.0.1:8228/assets/fonts/MaterialIcons-Regular.otf",

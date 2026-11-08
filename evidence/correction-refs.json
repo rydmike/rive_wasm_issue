@@ -1,5 +1,5 @@
 {
-  "main": "8515ad6329e689b7761e52eeda6cafce23273032",
-  "fix-wasm-interop": "71a354332f0693f2058d5634dfaaeb101ff5a87b",
-  "fix-wasm-interop~1": "7a79c959442dc4f27be316fedefe3c3951f8753e"
+  "main": "1605bfeb12a2e833abd219dee5796f5ce22444fe",
+  "fix-wasm-interop-0.2.0-dev.4": "1b315630d29e270dd1aece085fe54362d6f2eb9f",
+  "fix-wasm-interop-0.2.0-dev.4~1": "d4c5cdc97e41709d04248866ad5aadafb43a2f56"
 }

@@ -1,12 +1,8 @@
 {
-  "capturedAt": "2026-10-21T07:42:38.042Z",
+  "capturedAt": "2026-11-08T16:25:22.550Z",
   "url": "http://127.0.0.1:8240",
-  "browser": "Chrome/155.0.8059.85",
+  "browser": "Chrome/156.0.8078.81",
   "console": [
-    {
-      "type": "error",
-      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
-    },
     {
       "type": "log",
       "text": "[repro] old enum cast error: Type 'JSValue' is not a subtype of type 'String' in type cast"
@@ -34,14 +30,18 @@
     {
       "type": "log",
       "text": "[repro] DONE"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
     }
   ],
   "pageErrors": [],
   "requests": [
     "http://127.0.0.1:8240/",
     "http://127.0.0.1:8240/probe.mjs",
-    "http://127.0.0.1:8240/favicon.ico",
-    "http://127.0.0.1:8240/probe.wasm"
+    "http://127.0.0.1:8240/probe.wasm",
+    "http://127.0.0.1:8240/favicon.ico"
   ],
   "responses": [
     {
@@ -53,8 +53,36 @@
         "content-type": "text/html",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:42:38 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:47 GMT",
+        "date": "Sun, 08 Nov 2026 16:25:22 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:25:12 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8240/probe.mjs",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "7320",
+        "content-type": "text/javascript",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 08 Nov 2026 16:25:22 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:25:13 GMT",
+        "server": "SimpleHTTP/0.6 Python/3.9.6"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8240/probe.wasm",
+      "status": 200,
+      "headers": {
+        "cache-control": "no-store",
+        "content-length": "84458",
+        "content-type": "application/wasm",
+        "cross-origin-embedder-policy": "credentialless",
+        "cross-origin-opener-policy": "same-origin",
+        "date": "Sun, 08 Nov 2026 16:25:22 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:25:13 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -68,42 +96,14 @@
         "content-type": "text/html;charset=utf-8",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:42:38 GMT",
-        "server": "SimpleHTTP/0.6 Python/3.9.6"
-      }
-    },
-    {
-      "url": "http://127.0.0.1:8240/probe.mjs",
-      "status": 200,
-      "headers": {
-        "cache-control": "no-store",
-        "content-length": "7320",
-        "content-type": "text/javascript",
-        "cross-origin-embedder-policy": "credentialless",
-        "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:42:38 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:48 GMT",
-        "server": "SimpleHTTP/0.6 Python/3.9.6"
-      }
-    },
-    {
-      "url": "http://127.0.0.1:8240/probe.wasm",
-      "status": 200,
-      "headers": {
-        "cache-control": "no-store",
-        "content-length": "84458",
-        "content-type": "application/wasm",
-        "cross-origin-embedder-policy": "credentialless",
-        "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:42:38 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:48 GMT",
+        "date": "Sun, 08 Nov 2026 16:25:22 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     }
   ],
   "environment": {
     "crossOriginIsolated": true,
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
     "memoryGrowth": [
       {
         "before": 65536,
@@ -115,8 +115,8 @@
     ],
     "resources": [
       "http://127.0.0.1:8240/probe.mjs",
-      "http://127.0.0.1:8240/favicon.ico",
-      "http://127.0.0.1:8240/probe.wasm"
+      "http://127.0.0.1:8240/probe.wasm",
+      "http://127.0.0.1:8240/favicon.ico"
     ]
   },
   "complete": true

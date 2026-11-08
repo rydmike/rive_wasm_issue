@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-21T07:46:31.553Z",
+  "capturedAt": "2026-11-08T16:22:16.956Z",
   "url": "http://127.0.0.1:8229",
-  "browser": "Chrome/155.0.8059.85",
+  "browser": "Chrome/156.0.8078.81",
   "console": [
     {
       "type": "log",
@@ -185,7 +185,7 @@
     },
     {
       "type": "log",
-      "text": "[memory.grow] {\"before\":67108864,\"after\":80543744,\"delta\":205,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c\"}"
+      "text": "[memory.grow] {\"before\":67108864,\"after\":80543744,\"delta\":205,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:92664)\\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:93145)\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[823]:0x4c954\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[200]:0x8f56\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[1681]:0xc8208\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[7651]:0x27baee\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3038]:0x18e684\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3082]:0x190f76\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[2163]:0x11c378\"}"
     },
     {
       "type": "log",
@@ -197,7 +197,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 10 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9254]:0x19a0eb)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999d8)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 10 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9256]:0x19b654)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af41)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -205,7 +205,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 10 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9255]:0x19a1b6)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999f5)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 10 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9257]:0x19b71f)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af5e)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -221,7 +221,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 11 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9254]:0x19a0eb)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999d8)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 11 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9256]:0x19b654)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af41)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -229,7 +229,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 11 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9255]:0x19a1b6)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999f5)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 11 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9257]:0x19b71f)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af5e)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -245,7 +245,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 12 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9254]:0x19a0eb)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999d8)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 12 number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9256]:0x19b654)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af41)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -253,7 +253,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK after large 12 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9255]:0x19a1b6)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999f5)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199294)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK after large 12 enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9257]:0x19b71f)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af5e)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a7fd)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -265,7 +265,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK retry number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9254]:0x19a0eb)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999d8)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199353)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK retry number(Coin/Item_Value)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:71:45 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9256]:0x19b654)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af41)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a8bc)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -273,7 +273,7 @@
     },
     {
       "type": "log",
-      "text": "[repro] STACK retry enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1836]:0xdf5de)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1722]:0xde2bf)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4652]:0x1269fd)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9262]:0x19a376)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9255]:0x19a1b6)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9249]:0x199e90)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9225]:0x1999f5)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9221]:0x199353)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[919]:0xc225d)"
+      "text": "[repro] STACK retry enumerator(Item_Selection/Item_Selection)\nTypeError: Cannot perform DataView.prototype.setUint8 on a detached or out-of-bounds ArrayBuffer\n    at DataView.prototype.setUint8 (<anonymous>)\n    at M.JSUint8ArrayImpl._setUnchecked (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1837]:0xe0b44)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (body) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[1723]:0xdf825)\n    at M._JSUint8ArrayImpl&JSIntegerArrayBase&_IntListMixin.setRange (checked entry) (http://127.0.0.1:8229/main.dart.wasm:wasm-function[4654]:0x127f66)\n    at M.WebViewModelInstanceRuntime._findPointerByPath (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9264]:0x19b8df)\n    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:80:63 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9257]:0x19b71f)\n    at M._ReproState.check (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9251]:0x19b3f9)\n    at M._ReproState.readPaths (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9227]:0x19af5e)\n    at M._ReproState.run inner (http://127.0.0.1:8229/main.dart.wasm:wasm-function[9223]:0x19a8bc)\n    at M.closure wrapper at org-dartlang-sdk:///dart-sdk/lib/_internal/wasm/common/async_patch.dart:95:5 trampoline (http://127.0.0.1:8229/main.dart.wasm:wasm-function[920]:0xc37c3)"
     },
     {
       "type": "log",
@@ -284,17 +284,17 @@
   "requests": [
     "http://127.0.0.1:8229/",
     "http://127.0.0.1:8229/flutter_bootstrap.js",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.wasm",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
     "http://127.0.0.1:8229/main.dart.mjs",
     "http://127.0.0.1:8229/main.dart.wasm",
     "http://127.0.0.1:8229/assets/FontManifest.json",
     "http://127.0.0.1:8229/assets/fonts/MaterialIcons-Regular.otf",
     "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
-    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
-    "blob:http://127.0.0.1:8229/07175dd8-59a2-41ce-9c93-739e42de7bf2",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
-    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js",
+    "blob:http://127.0.0.1:8229/649309f7-4a81-4551-9044-d0e35410d625",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm",
     "http://127.0.0.1:8229/assets/assets/rewards.riv",
     "http://127.0.0.1:8229/assets/assets/semantics.riv",
     "http://127.0.0.1:8229/assets/assets/semantics.riv",
@@ -319,8 +319,8 @@
         "content-type": "text/html",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:25 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:16 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:02 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -329,12 +329,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "13212",
+        "content-length": "13211",
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:25 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:16 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:02 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -343,12 +343,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "33073",
+        "content-length": "33190",
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:34 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:09 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -357,12 +357,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "2908192",
+        "content-length": "2918520",
         "content-type": "application/wasm",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:45 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:19 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -375,8 +375,8 @@
         "content-type": "application/json",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:45 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:19 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -389,8 +389,8 @@
         "content-type": "font/otf",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:40:46 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:21:20 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -403,7 +403,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -417,7 +417,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -431,7 +431,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -445,7 +445,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -459,7 +459,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -473,7 +473,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -487,7 +487,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -501,7 +501,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -515,7 +515,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -529,7 +529,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -543,7 +543,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -557,7 +557,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -571,7 +571,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:17 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -579,27 +579,27 @@
   ],
   "environment": {
     "crossOriginIsolated": true,
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
     "memoryGrowth": [
       {
         "before": 67108864,
         "after": 80543744,
         "delta": 205,
         "detached": true,
-        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"
+        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:92664)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:93145)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[823]:0x4c954\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[200]:0x8f56\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[1681]:0xc8208\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[7651]:0x27baee\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3038]:0x18e684\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3082]:0x190f76\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[2163]:0x11c378"
       }
     ],
     "resources": [
       "http://127.0.0.1:8229/flutter_bootstrap.js",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.wasm",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
       "http://127.0.0.1:8229/main.dart.mjs",
       "http://127.0.0.1:8229/main.dart.wasm",
       "http://127.0.0.1:8229/assets/FontManifest.json",
       "http://127.0.0.1:8229/assets/fonts/MaterialIcons-Regular.otf",
       "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
-      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
-      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm",
       "http://127.0.0.1:8229/assets/assets/rewards.riv",
       "http://127.0.0.1:8229/assets/assets/semantics.riv",
       "http://127.0.0.1:8229/assets/assets/semantics.riv",

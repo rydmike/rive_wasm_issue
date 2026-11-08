@@ -1,12 +1,14 @@
 Resolving dependencies...
 Downloading packages...
   material_color_utilities 0.13.0 (0.13.1 available)
-! rive_native 0.2.0-dev.3 from path ../.work/b-only (overridden in ./pubspec_overrides.yaml)
+! rive_native 0.2.0-dev.4 from path ../.work/b-only (overridden in ./pubspec_overrides.yaml)
+  vector_math 2.4.3 (2.4.4 available)
+  web 1.1.1 (1.1.2 available)
 Got dependencies!
-1 package has newer versions incompatible with dependency constraints.
+3 packages have newer versions incompatible with dependency constraints.
 Try `flutter pub outdated` for more information.
 Compiling lib/main.dart for the Web...                          
 Expected to find fonts for (MaterialIcons, packages/cupertino_icons/CupertinoIcons), but found (MaterialIcons). This usually means you are referring to font families in an IconData class but not including them in the assets section of your pubspec.yaml, are missing the package that would include them, or are missing "uses-material-design: true".
 Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 7972 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
-Compiling lib/main.dart for the Web...                             13.8s
+Compiling lib/main.dart for the Web...                             11.6s
 ✓ Built ../.work/builds/b-only-js

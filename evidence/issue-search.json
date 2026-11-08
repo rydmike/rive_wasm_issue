@@ -1,6 +1,6 @@
 {
-  "date_utc": "2026-10-21T07:37:55Z",
-  "authenticated": false,
+  "date_utc": "2026-11-08T16:23:27Z",
+  "authenticated": true,
   "scope": "Open and closed issues; no state filter. GitHub issue search API, all returned results retained.",
   "searches": [
     {
@@ -18,22 +18,16 @@
           "url": "https://github.com/rive-app/rive-flutter/issues/615"
         },
         {
-          "number": 628,
+          "number": 644,
           "state": "open",
-          "title": "[Flutter Web] Memory leak: Infinite memory growth with looping animation even after stopping",
-          "url": "https://github.com/rive-app/rive-flutter/issues/628"
+          "title": "Web: dynamically bound nested artboard (artboard property + ArtboardComponentList) never receives pointer events when slot assign and list population run in the same batch",
+          "url": "https://github.com/rive-app/rive-flutter/issues/644"
         },
         {
           "number": 593,
           "state": "open",
           "title": "[WASM] ViewModelInstance and StateMachine input methods fail with JavaScriptError",
           "url": "https://github.com/rive-app/rive-flutter/issues/593"
-        },
-        {
-          "number": 644,
-          "state": "open",
-          "title": "Web: dynamically bound nested artboard (artboard property + ArtboardComponentList) never receives pointer events when slot assign and list population run in the same batch",
-          "url": "https://github.com/rive-app/rive-flutter/issues/644"
         },
         {
           "number": 575,
@@ -44,7 +38,7 @@
         {
           "number": 407,
           "state": "open",
-          "title": "in a flutter web project\uff0chow to import js and wasm file local not use cdn",
+          "title": "in a flutter web project，how to import js and wasm file local not use cdn",
           "url": "https://github.com/rive-app/rive-flutter/issues/407"
         },
         {
@@ -52,6 +46,12 @@
           "state": "open",
           "title": "Web (Factory.rive): embedded image assets appear to re-upload to the GPU on every artboard draw",
           "url": "https://github.com/rive-app/rive-flutter/issues/652"
+        },
+        {
+          "number": 628,
+          "state": "closed",
+          "title": "[Flutter Web] Memory leak: Infinite memory growth with looping animation even after stopping",
+          "url": "https://github.com/rive-app/rive-flutter/issues/628"
         },
         {
           "number": 561,
@@ -84,16 +84,16 @@
           "url": "https://github.com/rive-app/rive-flutter/issues/313"
         },
         {
-          "number": 391,
-          "state": "closed",
-          "title": "Failed build for Flutter Web WASM",
-          "url": "https://github.com/rive-app/rive-flutter/issues/391"
-        },
-        {
           "number": 411,
           "state": "closed",
           "title": "Rive animation causes device overheating by using all the CPU power",
           "url": "https://github.com/rive-app/rive-flutter/issues/411"
+        },
+        {
+          "number": 391,
+          "state": "closed",
+          "title": "Failed build for Flutter Web WASM",
+          "url": "https://github.com/rive-app/rive-flutter/issues/391"
         },
         {
           "number": 375,
@@ -187,7 +187,7 @@
         },
         {
           "number": 640,
-          "state": "open",
+          "state": "closed",
           "title": "Shared-texture RiveWidget mispositioned when an ancestor MediaQuery overrides devicePixelRatio",
           "url": "https://github.com/rive-app/rive-flutter/issues/640"
         },
@@ -209,13 +209,13 @@
       "issues": [
         {
           "number": 628,
-          "state": "open",
+          "state": "closed",
           "title": "[Flutter Web] Memory leak: Infinite memory growth with looping animation even after stopping",
           "url": "https://github.com/rive-app/rive-flutter/issues/628"
         },
         {
           "number": 661,
-          "state": "open",
+          "state": "closed",
           "title": "Android: deferred texture disposal blocks the main thread while GL pipelines link (0.2.0-dev.3)",
           "url": "https://github.com/rive-app/rive-flutter/issues/661"
         }
@@ -245,16 +245,16 @@
           "url": "https://github.com/rive-app/rive-flutter/issues/610"
         },
         {
-          "number": 662,
-          "state": "open",
-          "title": "Android: Luau offscreen Canvas content is blank because AndroidRenderTextureFrameSink does not restore GL state before canvas replay (0.2.0-dev.3)",
-          "url": "https://github.com/rive-app/rive-flutter/issues/662"
-        },
-        {
           "number": 612,
           "state": "open",
           "title": "nativeTexture FFI lookup targets wrong DLL and renderTextureObjPtr getter missing in  lib/src/rive_native_ffi.dart",
           "url": "https://github.com/rive-app/rive-flutter/issues/612"
+        },
+        {
+          "number": 662,
+          "state": "closed",
+          "title": "Android: Luau offscreen Canvas content is blank because AndroidRenderTextureFrameSink does not restore GL state before canvas replay (0.2.0-dev.3)",
+          "url": "https://github.com/rive-app/rive-flutter/issues/662"
         },
         {
           "number": 531,

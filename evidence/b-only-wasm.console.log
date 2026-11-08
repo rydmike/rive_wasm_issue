@@ -7,12 +7,12 @@
 [log] [repro] PASS before enumerator(Item_Selection/Item_Selection): Gem
 [log] [repro] FAIL before file.enums: Runtime type check failed (details omitted due to --omit-error-details)
 [log] [repro] STACK before file.enums
-    at M._throwErrorWithoutDetails (http://127.0.0.1:8231/main.dart.wasm:wasm-function[840]:0xc06b4)
-    at M._CastListBase.[] (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1350]:0xd2165)
-    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1356]:0xd2234)
-    at M.ListIterator.moveNext (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1144]:0xc8ca1)
-    at M.new GrowableList.of (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1123]:0xc85dd)
-    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8231/main.dart.wasm:wasm-function[9250]:0x199ef3)
+    at M._throwErrorWithoutDetails (http://127.0.0.1:8231/main.dart.wasm:wasm-function[841]:0xc1c1a)
+    at M._CastListBase.[] (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1351]:0xd36cb)
+    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1357]:0xd379a)
+    at M.ListIterator.moveNext (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1145]:0xca207)
+    at M.new GrowableList.of (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1124]:0xc9b43)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8231/main.dart.wasm:wasm-function[9252]:0x19b45c)
 [log] [repro] LOAD semantics.riv bytes=5280176
 [log] [repro] LOADED semantics.riv viewModels=11
 [log] [repro] PASS after large 1 number(Coin/Item_Value): 1300.0
@@ -50,7 +50,7 @@
 [log] [repro] PASS after large 9 number(Coin/Item_Value): 1300.0
 [log] [repro] PASS after large 9 enumerator(Item_Selection/Item_Selection): Gem
 [log] [repro] LOAD semantics.riv bytes=5280176
-[log] [memory.grow] {"before":67108864,"after":80543744,"delta":205,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"}
+[log] [memory.grow] {"before":67108864,"after":80543744,"delta":205,"detached":true,"stack":"Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:92664)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:93145)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[823]:0x4c954\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[200]:0x8f56\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[1681]:0xc8208\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[7651]:0x27baee\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3038]:0x18e684\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3082]:0x190f76\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[2163]:0x11c378"}
 [log] [repro] LOADED semantics.riv viewModels=11
 [log] [repro] PASS after large 10 number(Coin/Item_Value): 1300.0
 [log] [repro] PASS after large 10 enumerator(Item_Selection/Item_Selection): Gem
@@ -64,12 +64,12 @@
 [log] [repro] PASS after large 12 enumerator(Item_Selection/Item_Selection): Gem
 [log] [repro] FAIL after file.enums: Runtime type check failed (details omitted due to --omit-error-details)
 [log] [repro] STACK after file.enums
-    at M._throwErrorWithoutDetails (http://127.0.0.1:8231/main.dart.wasm:wasm-function[840]:0xc06b4)
-    at M._CastListBase.[] (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1350]:0xd2165)
-    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1356]:0xd2234)
-    at M.ListIterator.moveNext (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1144]:0xc8ca1)
-    at M.new GrowableList.of (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1123]:0xc85dd)
-    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8231/main.dart.wasm:wasm-function[9250]:0x199ef3)
+    at M._throwErrorWithoutDetails (http://127.0.0.1:8231/main.dart.wasm:wasm-function[841]:0xc1c1a)
+    at M._CastListBase.[] (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1351]:0xd36cb)
+    at M.__CastListBase&_CastIterableBase&ListMixin.elementAt (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1357]:0xd379a)
+    at M.ListIterator.moveNext (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1145]:0xca207)
+    at M.new GrowableList.of (http://127.0.0.1:8231/main.dart.wasm:wasm-function[1124]:0xc9b43)
+    at M.closure wrapper at file://<workspace>/rive_wasm_issue/repro/lib/main.dart:65:16 trampoline (http://127.0.0.1:8231/main.dart.wasm:wasm-function[9252]:0x19b45c)
 [log] [repro] PASS retry number(Coin/Item_Value): 1300.0
 [log] [repro] PASS retry enumerator(Item_Selection/Item_Selection): Gem
 [log] [repro] DONE

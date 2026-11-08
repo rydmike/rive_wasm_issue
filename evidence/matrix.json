@@ -7,8 +7,8 @@
     "enum_failures": 2,
     "path_failures": 8,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:20.313Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:06.277Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -42,8 +42,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:22.250Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:08.606Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -65,8 +65,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:24.416Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:10.285Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -89,8 +89,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:26.098Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:11.972Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -112,8 +112,8 @@
     "enum_failures": 2,
     "path_failures": 8,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:27.979Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:13.689Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -147,8 +147,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:29.665Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:15.250Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -170,8 +170,8 @@
     "enum_failures": 0,
     "path_failures": 8,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:31.553Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:16.956Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -203,8 +203,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:33.227Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:18.519Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -226,8 +226,8 @@
     "enum_failures": 2,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:35.094Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:20.243Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,
@@ -253,8 +253,8 @@
     "enum_failures": 0,
     "path_failures": 0,
     "crossOriginIsolated": true,
-    "capturedAt": "2026-10-21T07:46:36.778Z",
-    "browser": "Chrome/155.0.8059.85",
+    "capturedAt": "2026-11-08T16:22:21.823Z",
+    "browser": "Chrome/156.0.8078.81",
     "growth": [
       {
         "before": 67108864,

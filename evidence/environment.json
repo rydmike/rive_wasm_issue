@@ -1,6 +1,6 @@
 {
-  "dart": "Dart SDK version: 3.13.5 (stable) (Tue Sep 29 01:00:52 2026 -0700) on \"macos_arm64\"",
-  "chrome": "Google Chrome 155.0.8059.85",
+  "dart": "Dart SDK version: 3.13.7 (stable) (Thu Oct 22 14:28:57 2026 -0700) on \"macos_arm64\"",
+  "chrome": "Google Chrome 156.0.8078.81",
   "node": "v26.11.1",
   "npm": "11.20.0",
   "python": "Python 3.9.6",

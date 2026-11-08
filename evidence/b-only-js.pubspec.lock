@@ -126,17 +126,17 @@ packages:
     dependency: "direct main"
     description:
       name: rive
-      sha256: cf7582329cb5781ac9541a15fd6017d383e695e63c731816f39514427e771e5a
+      sha256: "0c7ede2a6130ef501394c8da9a3946e4cec0849fd9b815f3d8019a34b40ca896"
       url: "https://pub.dev"
     source: hosted
-    version: "0.15.0-dev.3"
+    version: "0.15.0-dev.4"
   rive_native:
     dependency: "direct main"
     description:
       path: "../.work/b-only"
       relative: true
     source: path
-    version: "0.2.0-dev.3"
+    version: "0.2.0-dev.4"
   sky_engine:
     dependency: transitive
     description: flutter

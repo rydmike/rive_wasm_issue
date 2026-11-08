@@ -1,4 +1,4 @@
-From 7a79c959442dc4f27be316fedefe3c3951f8753e Mon Sep 17 00:00:00 2001
+From d4c5cdc97e41709d04248866ad5aadafb43a2f56 Mon Sep 17 00:00:00 2001
 From: rydmike <mrydstrom+gh@gmail.com>
 Date: Wed, 21 Oct 2026 10:36:44 +0300
 Subject: [PATCH 1/2] Convert JavaScript enum values to Dart strings
@@ -9,10 +9,10 @@ A JS array's .toDart converts the array, not its elements. Under dart2wasm the e
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/lib/src/web/rive_web.dart b/lib/src/web/rive_web.dart
-index 4ca4eb9..3a21833 100644
+index 9848304..b8a0371 100644
 --- a/lib/src/web/rive_web.dart
 +++ b/lib/src/web/rive_web.dart
-@@ -778,9 +778,11 @@ class WebRiveFile extends File {
+@@ -933,9 +933,11 @@ class WebRiveFile extends File {
      for (int i = 0; i < length; i++) {
        final jsProp = result.getProperty(i.toJS) as js.JSObject;
        final name = (jsProp.getProperty('name'.toJS) as js.JSString).toDart;
@@ -29,7 +29,7 @@ index 4ca4eb9..3a21833 100644
 2.54.0 (Apple Git-157)
 
 
-From 71a354332f0693f2058d5634dfaaeb101ff5a87b Mon Sep 17 00:00:00 2001
+From 1b315630d29e270dd1aece085fe54362d6f2eb9f Mon Sep 17 00:00:00 2001
 From: rydmike <mrydstrom+gh@gmail.com>
 Date: Wed, 21 Oct 2026 10:36:44 +0300
 Subject: [PATCH 2/2] Refresh live Wasm buffer views before access
@@ -40,10 +40,10 @@ The Dart wrapper for a typed array caches its length under dart2wasm, so isEmpty
  1 file changed, 3 insertions(+), 8 deletions(-)
 
 diff --git a/lib/src/rive_native_web.dart b/lib/src/rive_native_web.dart
-index 231a45d..b9c77b4 100644
+index f82e3ce..c83bcd4 100644
 --- a/lib/src/rive_native_web.dart
 +++ b/lib/src/rive_native_web.dart
-@@ -722,14 +722,9 @@ class WasmBuffer {
+@@ -728,14 +728,9 @@ class WasmBuffer {
    final int size;
  
    Uint8List get data {
@@ -63,3 +63,4 @@ index 231a45d..b9c77b4 100644
      }
 -- 
 2.54.0 (Apple Git-157)
+

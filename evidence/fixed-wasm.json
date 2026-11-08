@@ -1,7 +1,7 @@
 {
-  "capturedAt": "2026-10-21T07:46:24.416Z",
+  "capturedAt": "2026-11-08T16:22:10.285Z",
   "url": "http://127.0.0.1:8225",
-  "browser": "Chrome/155.0.8059.85",
+  "browser": "Chrome/156.0.8078.81",
   "console": [
     {
       "type": "log",
@@ -185,7 +185,7 @@
     },
     {
       "type": "log",
-      "text": "[memory.grow] {\"before\":67108864,\"after\":80543744,\"delta\":205,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c\"}"
+      "text": "[memory.grow] {\"before\":67108864,\"after\":80543744,\"delta\":205,\"detached\":true,\"stack\":\"Error\\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:92664)\\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:93145)\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[823]:0x4c954\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[200]:0x8f56\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[1681]:0xc8208\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[7651]:0x27baee\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3038]:0x18e684\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3082]:0x190f76\\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[2163]:0x11c378\"}"
     },
     {
       "type": "log",
@@ -252,17 +252,17 @@
   "requests": [
     "http://127.0.0.1:8225/",
     "http://127.0.0.1:8225/flutter_bootstrap.js",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.wasm",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
     "http://127.0.0.1:8225/main.dart.mjs",
     "http://127.0.0.1:8225/main.dart.wasm",
     "http://127.0.0.1:8225/assets/FontManifest.json",
     "http://127.0.0.1:8225/assets/fonts/MaterialIcons-Regular.otf",
     "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
-    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
-    "blob:http://127.0.0.1:8225/d7491a71-907a-4fc6-bc7c-b11b381ce517",
-    "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
-    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js",
+    "blob:http://127.0.0.1:8225/59a55348-f03d-4354-ae41-a69bbe63d260",
+    "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
+    "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm",
     "http://127.0.0.1:8225/assets/assets/rewards.riv",
     "http://127.0.0.1:8225/assets/assets/semantics.riv",
     "http://127.0.0.1:8225/assets/assets/semantics.riv",
@@ -287,8 +287,8 @@
         "content-type": "text/html",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:11 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:19:58 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -297,12 +297,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "13210",
+        "content-length": "13212",
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:11 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:19:58 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -311,12 +311,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "33073",
+        "content-length": "33190",
         "content-type": "text/javascript",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:20 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:05 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -325,12 +325,12 @@
       "status": 200,
       "headers": {
         "cache-control": "no-store",
-        "content-length": "2907952",
+        "content-length": "2918279",
         "content-type": "application/wasm",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:30 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:16 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -343,8 +343,8 @@
         "content-type": "application/json",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:16 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -357,8 +357,8 @@
         "content-type": "font/otf",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
-        "last-modified": "Wed, 21 Oct 2026 07:39:31 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
+        "last-modified": "Sun, 08 Nov 2026 16:20:17 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
     },
@@ -371,7 +371,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -385,7 +385,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -399,7 +399,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -413,7 +413,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -427,7 +427,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -441,7 +441,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -455,7 +455,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -469,7 +469,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -483,7 +483,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -497,7 +497,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -511,7 +511,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -525,7 +525,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -539,7 +539,7 @@
         "content-type": "application/octet-stream",
         "cross-origin-embedder-policy": "credentialless",
         "cross-origin-opener-policy": "same-origin",
-        "date": "Wed, 21 Oct 2026 07:46:24 GMT",
+        "date": "Sun, 08 Nov 2026 16:22:10 GMT",
         "last-modified": "Tue, 20 Oct 2026 22:57:03 GMT",
         "server": "SimpleHTTP/0.6 Python/3.9.6"
       }
@@ -547,27 +547,27 @@
   ],
   "environment": {
     "crossOriginIsolated": true,
-    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
     "memoryGrowth": [
       {
         "before": 67108864,
         "after": 80543744,
         "delta": 205,
         "detached": true,
-        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92415)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js:1:92896)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[832]:0x4c9c1\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[193]:0x89c8\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2748]:0x16d2c7\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[7888]:0x27558c\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3056]:0x18a8b9\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[3100]:0x18cb6b\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm:wasm-function[2295]:0x124d0c"
+        "stack": "Error\n    at WebAssembly.Memory.grow (<anonymous>:9:28)\n    at growMemory (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:92664)\n    at _emscripten_resize_heap (https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js:1:93145)\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[823]:0x4c954\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[200]:0x8f56\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[1681]:0xc8208\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[7651]:0x27baee\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3038]:0x18e684\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[3082]:0x190f76\n    at https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm:wasm-function[2163]:0x11c378"
       }
     ],
     "resources": [
       "http://127.0.0.1:8225/flutter_bootstrap.js",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.wasm",
-      "https://www.gstatic.com/flutter-canvaskit/deb287481e3ce9468f3434937ced4240a70539ca/skwasm.js",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.wasm",
+      "https://www.gstatic.com/flutter-canvaskit/89c39edfdfae2949f6806e4a315c0c08522238b7/skwasm.js",
       "http://127.0.0.1:8225/main.dart.mjs",
       "http://127.0.0.1:8225/main.dart.wasm",
       "http://127.0.0.1:8225/assets/FontManifest.json",
       "http://127.0.0.1:8225/assets/fonts/MaterialIcons-Regular.otf",
       "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2",
-      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.js",
-      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@47.0.0/wasm/rive_native.wasm",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.js",
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/wasm/rive_native.wasm",
       "http://127.0.0.1:8225/assets/assets/rewards.riv",
       "http://127.0.0.1:8225/assets/assets/semantics.riv",
       "http://127.0.0.1:8225/assets/assets/semantics.riv",
