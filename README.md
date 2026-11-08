@@ -1,8 +1,10 @@
 # Flutter web dart2wasm: enum conversion and detached heap views in rive_native
 
+> Filed as [rive-app/rive-flutter#670](https://github.com/rive-app/rive-flutter/issues/670).
+
 Two Dart-to-JavaScript interop failures reproduce on Flutter 3.47.9 / Dart 3.13.7 in headless Chrome with both the latest published prerelease pair and the latest stable pair. The public reproduction and captures are included here. Thank you for taking a look.
 
-Following the arrangement in [#665](https://github.com/rive-app/rive-flutter/issues/665), the suggested correction is offered on a copy of `rive_native 0.2.0-dev.4` verbatim from pub.dev: [branch](https://github.com/rydmike/rive_native/tree/fix-wasm-interop-0.2.0-dev.4), [two-commit comparison](https://github.com/rydmike/rive_native/compare/main...fix-wasm-interop-0.2.0-dev.4), [`.patch`](https://github.com/rydmike/rive_native/compare/main...fix-wasm-interop-0.2.0-dev.4.patch). The same patch is included [locally](patch/fix-wasm-interop.patch).
+Following the arrangement in [#665](https://github.com/rive-app/rive-flutter/issues/665), the suggested correction is offered on a copy of `rive_native 0.2.0-dev.4` verbatim from pub.dev: [branch](https://github.com/rydmike/rive_native/tree/fix-wasm-interop-0.2.0-dev.4), [two-commit comparison](https://github.com/rydmike/rive_native/compare/main...fix-wasm-interop-0.2.0-dev.4), [`.patch`](https://github.com/rydmike/rive_native/compare/main...fix-wasm-interop-0.2.0-dev.4.patch). The same patch is included [locally](patch/fix-wasm-interop.patch). A separate report on GPU canvas image views on the web, [#669](https://github.com/rive-app/rive-flutter/issues/669), uses the same copy.
 
 Related reports: [a comment on #628](https://github.com/rive-app/rive-flutter/issues/628#issuecomment-4322984209) describes the identical detached-buffer error, and [#593](https://github.com/rive-app/rive-flutter/issues/593) describes Wasm failures in the same view-model APIs, both without a root cause or a reproduction. This report adds two source causes, a public reproduction and a suggested correction.
 
@@ -37,13 +39,13 @@ FAIL after large 10 number(Coin/Item_Value): TypeError: Cannot perform DataView.
 
 The tenth retained large decode grows Rive's heap from 67,108,864 to 80,543,744 bytes and detaches its previous buffer. The path reads continue to fail after decodes 11 and 12 and on the final retry. The stable pair (`rive 0.14.11` / `rive_native 0.1.11`) behaves the same way. Both published pairs pass all 30 reads when compiled with dart2js. With both suggested corrections, all 30 reads pass under both compilers, including after the same observed heap growth.
 
-The existing report in #628 includes the identical detached-buffer error, and
-#593 describes potentially related Wasm API failures. This reproduction isolates
-two source causes; it does not establish whether those reports share a cause.
+The existing report in #628 includes the identical detached-buffer error, and #593 describes potentially related Wasm API failures. This reproduction isolates two source causes; it does not establish whether those reports share a cause.
 
 ### Reproduction steps / code
 
 The standalone project, public fixtures, scripts and captures are at https://github.com/rydmike/rive_wasm_issue.
+
+> If preferred, the whole sample is also in the ZIP under "Upload your reproduction files / stack trace". The `.riv` files are `repro/assets/rewards.riv` and `repro/assets/semantics.riv` in it, so they are not uploaded again under "Source `.riv` / `.rev` file".
 
 1. Use Flutter 3.47.9 stable / Dart 3.13.7. From `repro/`, run `flutter pub get`.
 2. Run `flutter build web --wasm --profile --no-minify-wasm`.
@@ -69,7 +71,7 @@ Attach `repro.zip`, produced by running `sh tool/make-zip.sh` from a clean, comm
 
 ### Source `.riv` / `.rev` file
 
-Attach the same `repro.zip`. It includes the unchanged public `rewards.riv` and `semantics.riv` files, their pinned source URLs and SHA-256 hashes in `repro/assets/provenance.json`, and the full upstream MIT license. No `.rev` backup is included.
+Not attached separately: they are in the same `repro.zip`, which includes the unchanged public `rewards.riv` and `semantics.riv` files, their pinned source URLs and SHA-256 hashes in `repro/assets/provenance.json`, and the full upstream MIT license. No `.rev` backup is included.
 
 ### Screenshots / video
 
@@ -108,6 +110,8 @@ macOS 27.0.1, build 26A434, arm64.
 - [Potentially related view-model failures in #593](https://github.com/rive-app/rive-flutter/issues/593)
 
 The archive SHA-256 is `c617034971488a3acbfb1f42ec47e39e5e43e66fbf84c36b1d468e5ac4cb20f9`, checked against pub.dev metadata. The change uses the existing interop helpers, adds no dependency and retains the disposed-pointer guard. Its performance cost was not measured. This reproduction covers decoding and data-binding reads; Rive rendering/animation, native platforms and other browsers were not tested.
+
+We also verified the correction in our production app, a large Flutter web app, using the fix branch through a dependency override. A dart2wasm build deployed to our staging site (multi-threaded, cross-origin isolated) now loads and plays the large Rive files that failed with the detached ArrayBuffer error after smaller ones, with no interop errors in Chrome.
 
 ## How to run the reproduction
 
